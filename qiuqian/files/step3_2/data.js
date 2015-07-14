@@ -1,0 +1,67 @@
+﻿$axure.loadCurrentPage({
+  "url":"step3_2.html",
+  "generationDate":new Date(1421638851140.7),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"a46535aafb0f4c8fa3d7a29e31bc1732",
+    "type":"Axure:Page",
+    "name":"step3",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"3b468991265649f5b9d5eccfb19cf7e7",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1000,
+              "height":1000}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c3d2503dc2c4494e90ac078b7c55fb00",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1000,
+                  "height":1000}},
+              "adaptiveStyles":{
+}}],
+          "annotation":{
+            "描述":"已登录用户查看结果页面：<br>显示求签文字，会根据用户的性别及名字笔画给出相应的结果。<br>"},
+          "images":{
+            "normal~":"images/step3_2/u0.jpg"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "3b468991265649f5b9d5eccfb19cf7e7":{
+      "scriptId":"u0"},
+    "c3d2503dc2c4494e90ac078b7c55fb00":{
+      "scriptId":"u1"}}});

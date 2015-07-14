@@ -1,0 +1,67 @@
+﻿$axure.loadCurrentPage({
+  "url":"step3-结果-手机联系人.html",
+  "generationDate":new Date(1421638851179.73),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"1584fd26cf314728ad34c297d508e740",
+    "type":"Axure:Page",
+    "name":"step3-结果-手机联系人",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"0914d15578e94dfe9c17befc75a9d2b7",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1000,
+              "height":860}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"43256b2d5ece43eda8bf6cdd9c46384b",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1000,
+                  "height":860}},
+              "adaptiveStyles":{
+}}],
+          "annotation":{
+            "描述":"已登录-查通讯录联系人-结果页面：<br>显示求签文字，已及推出三个手机通讯录用户，头像显示默认随机的头像，点击“告诉ta”如果有手机号码的发送短信邀请，如果有邮箱的发送邮件，如果两者都有则优先发送短信。<br>"},
+          "images":{
+            "normal~":"images/step3-结果-手机联系人/u0.jpg"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "0914d15578e94dfe9c17befc75a9d2b7":{
+      "scriptId":"u0"},
+    "43256b2d5ece43eda8bf6cdd9c46384b":{
+      "scriptId":"u1"}}});

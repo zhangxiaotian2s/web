@@ -1,0 +1,88 @@
+*{ margin: 0; padding: 0 ; font-family: "微软雅黑" verdana;}
+li{ list-style: none;}
+a{text-decoration: none;}
+input{ outline: none;}
+/*摘录常用bootstrp css*/
+a:active,
+a:hover {
+  outline: 0;
+}
+html {
+  font-size: 62.5%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.img-responsive{ display: block;max-width: 100%;height: auto;}
+.img-circle{border-radius:50%}
+.text-left{text-align:left}
+.text-right{text-align:right}
+.text-center{text-align:center}
+.row {
+  width: 100%;
+}
+.row:after{
+	clear: both;
+}
+
+.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9
+{float:left}
+
+.col-xs-12{width:100%}
+.col-xs-11{width:91.66666667%}
+.col-xs-10{width:83.33333333%}
+.col-xs-9{width:75%}
+.col-xs-8{width:66.66666667%}
+.col-xs-7{width:58.33333333%}
+.col-xs-6{width:50%}
+.col-xs-5{width:41.66666667%}
+.col-xs-4{width:33.33333333%}
+.col-xs-3{width:25%}
+.col-xs-2{width:16.66666667%}
+.col-xs-1{width:8.33333333%}
+.col-xs-offset-12 {margin-left: 100%;}
+.col-xs-offset-11 {margin-left: 91.66666667%;}
+.col-xs-offset-10 {margin-left: 83.33333333%;}
+.col-xs-offset-9 {margin-left: 75%;}
+.col-xs-offset-8 {margin-left: 66.66666667%;}
+.col-xs-offset-7 {margin-left: 58.33333333%;}
+.col-xs-offset-6 {margin-left: 50%;}
+.col-xs-offset-5 {margin-left: 41.66666667%;}
+.col-xs-offset-4 {margin-left: 33.33333333%;}
+.col-xs-offset-3 {margin-left: 25%;}
+.col-xs-offset-2 {margin-left: 16.66666667%;}
+.col-xs-offset-1 {margin-left: 8.33333333%;}
+.col-xs-offset-0 {margin-left: 0;}
+
+.headertop{ overflow: hidden;  height: auto;  background:#ff6666;}
+.headertop h1{ width: 100%; height: auto; font-size: 2.4em; line-height: 58px;}
+
+/*game_notice_page*/
+.nav1{ height: 46px; line-height: 46px; border-bottom: #cdcdcd solid 1px;}
+.nav1 div{ text-align: center;}
+.nav1 div a{color: #242424; font-size: 2.0em;}
+.nav1 div a.current{ color: #FF6666;}
+.tj_game { overflow: hidden; padding: 10px 0px; height: auto; border-bottom: #cdcdcd solid 1px;}
+.tj_game div img{ display: block; width: 90%; max-width: 286px; margin:5px auto;}
+.tj_game div p{ font-size: 1.4em; margin: 5px 10px;}
+.tj_game div p.zhu{ color: #999999;}
+.game_notice_list{ background: #f6f6f6; overflow: hidden;}
+.game_notice_list h2{ text-align: center; font-size: 1.8em; line-height: 40px;}
+.one_game_notice{ background: #FFFFFF;   border-radius: 4px;  border:#cdcdcd solid 1px; overflow: hidden; width: 94%; margin:  auto;
+ margin-bottom: 10px;}
+.one_game_notice time{ display: block;  line-height: 40px; font-size: 1.4em;}
+.game_vs{ overflow: hidden; border-top: #cdcdcd solid 1px;}
+.game_vs div{ text-align: center; padding: 10px 0px;}
+.game_vs a{ font-size: 1.4em; display: block;  margin: 4px auto;}
+.left_team a{ color: #2e3c83;}
+.right_team a{ color: #c43539;}
+.center_vs{ line-height: 100%; font-size: 1.4em; line-height: 30px;  }
+.game_vs .vs2{ line-height: 46px;}
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+	.headertop{  height: 50px;  background:#ff6666;}
+	.headertop h1{  line-height: 50px;}
+	.nav1 div a{ font-size: 1.6em;}
+	.tj_game div p{ font-size: 1.2em; margin: 4px 10px;}
+}
+@media only screen and (min-width: 320px) and (max-width: 380px) {
+    .nav1 div a{ font-size: 1.8em;}
+}
+

@@ -1,0 +1,67 @@
+﻿$axure.loadCurrentPage({
+  "url":"step1-___.html",
+  "generationDate":new Date(1421638850958.58),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"f4c5ebec2f644162a5d60dccd716b30c",
+    "type":"Axure:Page",
+    "name":"step1-有头像",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"d246c85a170d4e8b846e5bc1fd2f6c32",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1000,
+              "height":695}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"953d78cdb41547d983b4502584d5ad5b",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1000,
+                  "height":695}},
+              "adaptiveStyles":{
+}}],
+          "annotation":{
+            "描述":"自动匹配天际网用户的头像、姓名、性别为用户选择状态，选择公历日期，4项为必填项目，否则不能进入step2，开始测算不可点击。如缺少一项，提示用户：<br>“头像不能为空，请上传你的真实头像”<br>“请选择你的生辰八字哦，不然无法推算！”"},
+          "images":{
+            "normal~":"images/step1-___/u0.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "d246c85a170d4e8b846e5bc1fd2f6c32":{
+      "scriptId":"u0"},
+    "953d78cdb41547d983b4502584d5ad5b":{
+      "scriptId":"u1"}}});

@@ -1,0 +1,71 @@
+﻿$axure.loadCurrentPage({
+  "url":"step2_1.html",
+  "generationDate":new Date(1421638851003.61),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"a2f6f512e3c9447b85592ce280227c18",
+    "type":"Axure:Page",
+    "name":"step2",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"1a18809886544fcfb00f3ba23f6be63c",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":-10,
+              "y":0},
+            "size":{
+              "width":1000,
+              "height":690}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"74701fc5f2aa4bdb98f38df2adc48a2b",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":-10,
+                  "y":0},
+                "size":{
+                  "width":1000,
+                  "height":690}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/step2/u0.jpg"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "1a18809886544fcfb00f3ba23f6be63c":{
+      "scriptId":"u0"},
+    "74701fc5f2aa4bdb98f38df2adc48a2b":{
+      "scriptId":"u1"}}});

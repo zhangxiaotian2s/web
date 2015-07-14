@@ -1,0 +1,67 @@
+﻿$axure.loadCurrentPage({
+  "url":"step1_3.html",
+  "generationDate":new Date(1421638851260.78),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"ea4c639032554a38a9edfc50b459f253",
+    "type":"Axure:Page",
+    "name":"step1",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"d79b64bb4dbd435ebed708544247147c",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1000,
+              "height":693}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"eafaa0c2043a4da8a08322bde624c955",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1000,
+                  "height":693}},
+              "adaptiveStyles":{
+}}],
+          "annotation":{
+            "描述":"未注册用户：<br>选择期望薪水、期望地区、当前行业、当前职能。每一项为必填项，如有一项未选择，则提示：“为了确保占卜的准确性，请完善信息”"},
+          "images":{
+            "normal~":"images/step1_3/u0.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "d79b64bb4dbd435ebed708544247147c":{
+      "scriptId":"u0"},
+    "eafaa0c2043a4da8a08322bde624c955":{
+      "scriptId":"u1"}}});

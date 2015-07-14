@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>赛场直击</title>
+		<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+		<meta name="format-detection" content="telephone=no" />
+		<link rel="stylesheet" href="css/style.css" />
+		<script type="text/javascript" src="js/zepto.min.js"></script>
+	</head>
+
+	<body>
+		<!--header-->
+		<header class="headertop row">
+			<div class="col-xs-2">
+				<a href="#">
+					<img src="images/nav_bk.png" class="img-responsive">
+				</a>
+			</div>
+			<div class="col-xs-8">
+				<h1 class="text-center">赛场直击</h1>
+			</div>
+			<div class="col-xs-2"></div>
+		</header>
+		<!--//header-->
+		<!--nav-->
+		<nav class="nav1 row">
+			<div class="col-xs-3">
+				<a href="#">成绩</a>
+			</div>
+			<div class="col-xs-3">
+				<a href="#">公告</a>
+			</div>
+			<div class="col-xs-3">
+				<a href="#">新闻</a>
+			</div>
+			<div class="col-xs-3">
+				<a href="#" class="current">出发表</a>
+			</div>
+		</nav>
+		<!--//nav-->
+		<!--tuijian game-->
+		<div class="tj_game row">
+			<div class="col-xs-6">
+				<img src="images/img01.jpg" class="img-responsive" />
+			</div>
+			<div class="col-xs-6">
+				<p>当地时间UTC-4
+					<time>04:42</time>
+				</p>
+				<p>本地时间UTC-8
+					<time>16:42</time>
+				</p>
+				<p class="zhu">所有Tee Time均为当地时间 “ * ” 为10</p>
+			</div>
+		</div>
+		<div id="game_notice_line"></div>
+		<!--//tuijian game-->
+		<!--game list-->
+		<div class="game_notice_list">
+			<h2>周日个人赛</h2>
+			<div class="one_game_notice">
+				<time class="col-xs-offset-1">08:00</time>
+				<div class="game_vs row">
+					<div class="col-xs-5 left_team">
+						<a href="">叶怀兵</a>
+					</div>
+					<div class="col-xs-2 center_vs">VS</div>
+					<div class="col-xs-5 right_team">
+						<a href="">孙成套</a>
+					</div>
+				</div>
+			</div>
+			<div class="one_game_notice">
+				<time class="col-xs-offset-1">08:00</time>
+				<div class="game_vs row">
+					<div class="col-xs-5 left_team">
+						<a href="">叶怀兵</a>
+						<a href="">叶兵</a>
+					</div>
+					<div class="col-xs-2 center_vs">VS</div>
+					<div class="col-xs-5 right_team">
+						<a href="">孙成套</a>
+						<a href="">孙成套</a>
+					</div>
+				</div>
+			</div>
+			<div class="one_game_notice">
+				<time class="col-xs-offset-1">08:00</time>
+				<div class="game_vs row">
+					<div class="col-xs-5 left_team">
+						<a href="">叶怀兵</a>
+						<a href="">叶兵</a>
+					</div>
+					<div class="col-xs-2 center_vs">VS</div>
+					<div class="col-xs-5 right_team">
+						<a href="">孙成套</a>
+						<a href="">孙成套</a>
+					</div>
+				</div>
+			</div>
+			
+
+		</div>
+		<!--//game list-->
+		<script>
+		    $(document).ready(function(){
+			var team_left = $('.left_team');
+			var game_length = team_left.length;
+			//解决VS 纵向剧中问题
+			for (i = 0; i < game_length; i++) {
+				if (team_left.eq(i).children('a').length == 2) {
+					team_left.eq(i).next('.center_vs').addClass('vs2')
+				}
+			 }
+			//规定one_game_notice的最低高度 解决 赛事少不能一整屏的问题
+			var list_h=$('.game_notice_list').height();
+			var list_top=$('#game_notice_line').offset().top;
+			var win_h
+			 if($(window).height()<(list_h+list_top)){
+			 	$('.game_notice_list').css('height',$(window).height()-list_top)
+			 }
+		   })
+		</script>
+
+	</body>
+
+</html>

@@ -1,0 +1,153 @@
+﻿$axure.loadCurrentPage({
+  "url":"活动入口.html",
+  "generationDate":new Date(1421638850399.21),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"b93c8d0e18ab43059ae7b6a3f55b0ce3",
+    "type":"Axure:Page",
+    "name":"活动入口",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"8386ed23efd345fa91b33e622b7183fc",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":256,
+              "y":-3},
+            "size":{
+              "width":280,
+              "height":393}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"546c0b86bf7848c6bac373e7e8ce1b72",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":256,
+                  "y":-3},
+                "size":{
+                  "width":280,
+                  "height":393}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/活动入口/u0.png"}},
+{
+          "id":"fd8eeaf27ec04fe5be9e8589566609b4",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"h1",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":40,
+              "y":23},
+            "size":{
+              "width":129,
+              "height":37}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"2e4a0298cb4b45e4b88ccabb1ded6491",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":40,
+                  "y":23},
+                "size":{
+                  "width":129,
+                  "height":37}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"9c931359666c4343b3064a47b9bec0d8",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFF0000,
+              "opacity":1},
+            "location":{
+              "x":520,
+              "y":173},
+            "size":{
+              "width":300,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"50a3554abad04f188c0dee3f8c694db3",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFF0000,
+                  "opacity":1},
+                "location":{
+                  "x":520,
+                  "y":173},
+                "size":{
+                  "width":300,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "8386ed23efd345fa91b33e622b7183fc":{
+      "scriptId":"u0"},
+    "546c0b86bf7848c6bac373e7e8ce1b72":{
+      "scriptId":"u1"},
+    "fd8eeaf27ec04fe5be9e8589566609b4":{
+      "scriptId":"u2"},
+    "2e4a0298cb4b45e4b88ccabb1ded6491":{
+      "scriptId":"u3"},
+    "9c931359666c4343b3064a47b9bec0d8":{
+      "scriptId":"u4"},
+    "50a3554abad04f188c0dee3f8c694db3":{
+      "scriptId":"u5"}}});

@@ -1,0 +1,65 @@
+﻿$axure.loadCurrentPage({
+  "url":"分享.html",
+  "generationDate":new Date(1421638850879.53),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"5a9dab3ffe784d019fb0d4f010019249",
+    "type":"Axure:Page",
+    "name":"分享",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"db09aca592a2444483a4b6f872cb8a0c",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1000,
+              "height":1000}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"8f13af511ff14a4e9cb1069247cfc241",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1000,
+                  "height":1000}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/分享/u0.jpg"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "db09aca592a2444483a4b6f872cb8a0c":{
+      "scriptId":"u0"},
+    "8f13af511ff14a4e9cb1069247cfc241":{
+      "scriptId":"u1"}}});

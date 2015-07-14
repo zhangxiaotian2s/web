@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>盖楼</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	</head>
+
+	<body>
+		<div class="index_wrap Prelative">
+			<img src="images/gl_index01.png" class="P100 block">
+			<img src="images/gl_index02.png" class="P100 block">
+			<img src="images/gl_index03.png" class="P100 block">
+			<img src="images/gl_index04.png" class="P100 block">
+			<img src="images/gl_index05.png" class="P100 block">
+			<img src="images/gl_index06.png" class="P100 block">
+			<img src="images/gl_index07.png" class="P100 block">
+			<img src="images/gl_index08.png" class="P100 block">
+			<div class="index_upload_img_box Pabsolute" id="head_img_click">
+				<div class="PA100 overhidden Prelative">
+					<div id="head_img">
+						<span>
+					  	<img  src="images/head_img.png" class="P100">
+					  </span>
+					</div>
+
+					<div class="text_center font_size14 bgb60  Pabsolute P100 upload_text">
+						上传头像
+					</div>
+				</div>
+			</div>
+			<div class="index_form_box bgw60 Pabsolute overhidden">
+				<form id="index_form">
+				<div class="select_sex" class="P100" >
+					<div class="sex_one overhidden">
+						<div class="sex_icon selected">
+							<img src="images/sex_nan.png" class="PA100 block">
+						</div>
+						<span class="block font_size14">
+						男
+						</span>
+						 <input type="radio" name="sex" value="男"  id="sex_man"  checked="checked" class="hidden"  />
+					</div>
+					
+
+					<div class="sex_one overhidden">
+						<div class="sex_icon">
+							<img src="images/sex_nv.png" class="PA100  block">
+						</div>
+						<span class="block font_size14">
+						女
+						</span>
+						<input type="radio" name="sex"  value="女"  id="sex_woman"  class="hidden" />
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class=" index_form_hide overhidden">
+				  <input type="file"  id="head_img_file" /> 
+				</div>
+				<div class="clear"></div>
+				<div class="index_input_text">
+					<input type="text" class="input_text" name="username" value=""  data-check="required,username"/>
+				</div>
+				<div class="clear"></div>
+				<div class="index_form_sub">
+					<input type="button" value="开始盖楼" class="sub_btn  text_center font_size16" id="index_subbtn" />
+				</div>
+				<div class="clear"></div>
+				  <div class="blank10"></div>
+				<p class="font_size12 text_center hidden" id="error2">*请上传您的头像*</p>
+				</form>
+			</div>
+		</div>
+        <script type="text/javascript" src="js/file.reader.js"></script>
+        <script type="text/javascript" src="js/jquery.myvalidate.js" ></script>
+		<script>
+			$("#head_img_click").click(function(){
+				$("#head_img_file").trigger("click")
+				$("#error2").addClass("hidden").removeClass("error_red")
+			})
+			//sex_select
+			var sex_one=$(".sex_one")
+			sex_one.bind('click',function(){
+				sex_one.children(".sex_icon").removeClass("selected");
+				sex_one.children("input").attr('checked',false);
+				$(this).children(".sex_icon").addClass("selected");
+				$(this).children("input").attr('checked',true)
+			})
+			
+			//验证
+			$.fn.myformvialidate("#index_form")
+			$("#index_subbtn").click(function(){
+				$("#index_form").find("input[type='text']").trigger("blur");
+				if($("#head_img_file").val()==""){
+					$("#error2").removeClass("hidden").addClass("error_red")
+				}
+			})
+			
+		</script>
+		
+	</body>
+
+</html>

@@ -1,0 +1,65 @@
+﻿$axure.loadCurrentPage({
+  "url":"扫朋友圈.html",
+  "generationDate":new Date(1421638851051.64),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"7fd1ab432d5b40809298059336aaa7af",
+    "type":"Axure:Page",
+    "name":"扫朋友圈",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"efb4ebf05a314d2fabf994f38498774b",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1000,
+              "height":860}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"8832d73dc63e47389b7c3ffc4277db14",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1000,
+                  "height":860}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/扫朋友圈/u0.jpg"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "efb4ebf05a314d2fabf994f38498774b":{
+      "scriptId":"u0"},
+    "8832d73dc63e47389b7c3ffc4277db14":{
+      "scriptId":"u1"}}});

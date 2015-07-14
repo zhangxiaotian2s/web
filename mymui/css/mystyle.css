@@ -1,0 +1,15 @@
+li{ list-style: none;}
+.mui-circle{ border-radius:50% ;}
+.blank5{ clear:both; height: 5px; overflow: hidden;}
+.blank10{ clear:both; height: 10px; overflow: hidden;}
+.blank20{ clear:both; height: 20px; overflow: hidden;}
+.blank30{ clear:both; height: 30px; overflow: hidden;}
+#aside_head{ width: 100px; height: 100px; overflow: hidden; margin: auto;}
+#aside_head img{ width: 100%;}
+#login_fast li{ float: left;}
+#login_three{  height: 50px; }
+#login_three li{ }
+#login_three li a span{ font-size: 24px; padding: 2px; border:#656565 solid 1px ;border-radius: 50%; }
+#login_three li a span.mui-icon-weibo{ color: #f03719;}
+#login_three li a span.mui-icon-weixin{ color:#11d499;}
+#login_register a{ font-size: 14px; text-align: center; }

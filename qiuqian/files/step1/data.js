@@ -1,0 +1,67 @@
+﻿$axure.loadCurrentPage({
+  "url":"step1.html",
+  "generationDate":new Date(1421638850762.45),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"eba28703eb234447ac2214b74bb7d61b",
+    "type":"Axure:Page",
+    "name":"step1",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"687daa0fe9974640a7fa8678d3e794c5",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1000,
+              "height":693}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"e3bbb9a7513944789c09883637b3296a",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1000,
+                  "height":693}},
+              "adaptiveStyles":{
+}}],
+          "annotation":{
+            "描述":"为注册情况下，需要用户输入姓名，以及选择性别和公历生日。<br>用户点击真实姓名时 界面为可输入状态<br>性别 可点击选择 蓝色为已选择的状态<br>公历生日点击之后出现选择年月日界面<br>点击开始测算，到step2"},
+          "images":{
+            "normal~":"images/step1/u0.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "687daa0fe9974640a7fa8678d3e794c5":{
+      "scriptId":"u0"},
+    "e3bbb9a7513944789c09883637b3296a":{
+      "scriptId":"u1"}}});

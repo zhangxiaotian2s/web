@@ -1,0 +1,128 @@
+﻿$axure.loadCurrentPage({
+  "url":"step3.html",
+  "generationDate":new Date(1421638850850.51),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"6ab496d5a2ec4afc94159f6892d42c94",
+    "type":"Axure:Page",
+    "name":"step3",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"7db3c867a4214b939bc5a47bfff302e4",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":0,
+              "y":-10},
+            "size":{
+              "width":1000,
+              "height":1000}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"45ae70ffcd764f2d9f2b84b2da79d8dd",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":0,
+                  "y":-10},
+                "size":{
+                  "width":1000,
+                  "height":1000}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/step3/u0.jpg"}},
+{
+          "id":"74e79744b1604c71ac00685bd54d8951",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":150,
+              "y":776},
+            "size":{
+              "width":730,
+              "height":210}},
+          "adaptiveStyles":{
+},
+          "annotation":{
+            "描述":"该模块提示未注册用户下载APP，用户长按二维码可保存或者直接扫描二维码进入下载页面。"}},
+{
+          "id":"c2543e2e4e2a4ed48e58562cfe571f63",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":150,
+              "y":564},
+            "size":{
+              "width":730,
+              "height":210}},
+          "adaptiveStyles":{
+},
+          "annotation":{
+            "描述":"此处为结果页的第二个模块，点击大按钮，扫一扫你的朋友圈有多不靠谱，规则：点击按钮之后出现3秒钟的扫描状态，之后随机显示90-99不等的不靠谱指数，显示如“扫描结果”页面"}},
+{
+          "id":"8c4d5e433b4e4259a996b6960f9aeaeb",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":340,
+              "y":410},
+            "size":{
+              "width":150,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "annotation":{
+            "描述":"点击“告诉朋友”弹出分享到微博、微信的页面。见“分享”页面"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "7db3c867a4214b939bc5a47bfff302e4":{
+      "scriptId":"u0"},
+    "45ae70ffcd764f2d9f2b84b2da79d8dd":{
+      "scriptId":"u1"},
+    "74e79744b1604c71ac00685bd54d8951":{
+      "scriptId":"u2"},
+    "c2543e2e4e2a4ed48e58562cfe571f63":{
+      "scriptId":"u3"},
+    "8c4d5e433b4e4259a996b6960f9aeaeb":{
+      "scriptId":"u4"}}});

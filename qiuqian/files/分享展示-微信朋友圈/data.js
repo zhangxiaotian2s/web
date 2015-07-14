@@ -1,0 +1,71 @@
+﻿$axure.loadCurrentPage({
+  "url":"分享展示-微信朋友圈.html",
+  "generationDate":new Date(1421638850892.54),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"01812210d5114a9b92a88bfc79fe545e",
+    "type":"Axure:Page",
+    "name":"分享展示-微信朋友圈",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"101e98eeb9484ce69d5e1c5525fdf042",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":140,
+              "y":0},
+            "size":{
+              "width":430,
+              "height":790}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"1732f9531fe8489b8a1f33f3289a476a",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":140,
+                  "y":0},
+                "size":{
+                  "width":430,
+                  "height":790}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/分享展示-微信朋友圈/u0.jpg"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "101e98eeb9484ce69d5e1c5525fdf042":{
+      "scriptId":"u0"},
+    "1732f9531fe8489b8a1f33f3289a476a":{
+      "scriptId":"u1"}}});

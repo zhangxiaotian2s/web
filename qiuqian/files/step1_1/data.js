@@ -1,0 +1,73 @@
+﻿$axure.loadCurrentPage({
+  "url":"step1_1.html",
+  "generationDate":new Date(1421638851117.69),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"03e68572d68d46a8aa99c876c1a87a0c",
+    "type":"Axure:Page",
+    "name":"step1",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"7ccdfc13e44842178fbf91355d4ac786",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":0,
+              "y":-20},
+            "size":{
+              "width":1000,
+              "height":693}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"74a1ccb50c014640be29e90736ebeb40",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":0,
+                  "y":-20},
+                "size":{
+                  "width":1000,
+                  "height":693}},
+              "adaptiveStyles":{
+}}],
+          "annotation":{
+            "描述":"填写用户姓名、选择性别、默认为女"},
+          "images":{
+            "normal~":"images/step1_1/u0.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "7ccdfc13e44842178fbf91355d4ac786":{
+      "scriptId":"u0"},
+    "74a1ccb50c014640be29e90736ebeb40":{
+      "scriptId":"u1"}}});

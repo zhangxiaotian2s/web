@@ -1,0 +1,70 @@
+*{ margin: 0; padding: 0;}
+
+body{
+	overflow:hidden;
+}
+
+
+
+.block{display: block;}
+.clear{clear: both;}
+.hide{ display: none;}
+.show{display: block;}
+.over{ overflow: hidden;}
+.p100{width: 100%;}
+.relative{position: relative;}
+.absolute{position: absolute;}
+.blank10{ clear: both; height: 10px;overflow:hidden;}
+.blank20{ clear: both; height: 20px;overflow:hidden;}
+.blank30{ clear: both; height: 30px;overflow:hidden;}
+.m_auto{ margin: 0 auto;}
+.text-left{ text-align: left;}
+.text-center{ text-align: center;}
+.text-right{ text-align: right;}
+.page{
+	width:100%;
+	height:100%;
+	position:absolute;
+	text-align:center;
+}
+
+.page-current{
+	z-index:1;
+}
+.page{
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.modulenr{ width:100%; height: 100%;}
+
+.page-1{ background-image: url(../images/gxzy_img01.jpg);}
+.page-2{ background-image: url(../images/gxzy_img02.jpg);}
+.page-3{ background-image: url(../images/3.png);}
+.page-4{ background-image: url(../images/4.png);}
+.page-5{ background-image: url(../images/5.png);}
+.page-6{ background-image: url(../images/6.png);}
+.page-7{ background-image: url(../images/7.png);}
+.page-8{ background-image: url(../images/8.png);}
+.page-9{ background-image: url(../images/9.png);}
+
+#btn_next{
+	display: block;
+	 width: 10%; line-height: 30px; text-align: center;
+	 left:45%;
+	 bottom:0px;
+	 z-index: 10000000; 
+	 color: #FFFFFF;
+}
+
+.module02_h1{ width: 100%; font-size: 24px; color: #f8f400; text-align: center; top: 8%; text-shadow: 1px 1px 1px #000;
+ -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0.2)));
+} 
+.module02_h2{ width: 40%; left: 4%;}
+.h2_kcnr{ top: 65%;}
+.kcnr_p{ top: 72%; font-size: 16px; width: 90%; left: 4%; line-height: 26px; padding: 1%; background: url(../images/gxzy_13.png);}
+.h2_jsfg{top: 38%;}
+.jsfg_p{top: 44%; font-size: 16px; width: 90%; left: 4%; line-height: 26px; padding: 1%; background: url(../images/gxzy_13.png);}
+.btn_img{ width: 33.333%; display: block;}
+
+.module03_p{ font-size: 12px; padding: 2%; line-height: 20px; text-indent: 24px; color: #FFFFFF;}

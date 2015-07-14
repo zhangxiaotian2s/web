@@ -1,0 +1,71 @@
+﻿$axure.loadCurrentPage({
+  "url":"已登录.html",
+  "generationDate":new Date(1421638850943.57),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"ce76efcef7bf4bcabfca607a26bdb385",
+    "type":"Axure:Page",
+    "name":"已登录",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"9a0e2a2e3c984bb39a1eef5eb6925ae4",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":-10,
+              "y":0},
+            "size":{
+              "width":1000,
+              "height":690}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"067aadbf014440f6947e1920d0997454",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":-10,
+                  "y":0},
+                "size":{
+                  "width":1000,
+                  "height":690}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/未注册/u0.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "9a0e2a2e3c984bb39a1eef5eb6925ae4":{
+      "scriptId":"u0"},
+    "067aadbf014440f6947e1920d0997454":{
+      "scriptId":"u1"}}});

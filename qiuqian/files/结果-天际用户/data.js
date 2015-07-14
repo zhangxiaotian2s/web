@@ -1,0 +1,67 @@
+﻿$axure.loadCurrentPage({
+  "url":"结果-天际用户.html",
+  "generationDate":new Date(1421638851192.74),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"0e1d90e097734979bedad36b220f5c61",
+    "type":"Axure:Page",
+    "name":"结果-天际用户",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"e25b89f571164c098909b92bae21736f",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1000,
+              "height":860}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"0477ddb6442541c5a9ad1504bc7be382",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1000,
+                  "height":860}},
+              "adaptiveStyles":{
+}}],
+          "annotation":{
+            "描述":"已登录-查看天际联系人-结果页面：<br>显示求签文字，已及推出三个天际好友，点击“结识Ta”则到该用户的个人主页。<br>"},
+          "images":{
+            "normal~":"images/结果-天际用户/u0.jpg"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "e25b89f571164c098909b92bae21736f":{
+      "scriptId":"u0"},
+    "0477ddb6442541c5a9ad1504bc7be382":{
+      "scriptId":"u1"}}});

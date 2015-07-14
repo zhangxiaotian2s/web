@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>Hello world</title>
+		
+		<script>
+			if(window.plus){
+				plus.plusRead()
+			}else{
+				document.addEventListener("plusready",plusRead,false)
+			}
+			
+			function plusRead(){
+				var ws=plus.webview.currentWebview()
+			}
+			function openNewWebview(){
+				var url="http://www.baidu.com";
+				plus.webview.create(url).show()
+			}
+			
+		</script>
+		
+		
+	</head>
+
+	<body>
+	<h1>新建一个</h1>
+		<button onclick="openNewWebview()">新建一个</button>
+	</body>
+
+</html>

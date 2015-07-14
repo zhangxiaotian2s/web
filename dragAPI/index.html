@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+			*{ margin: 0; padding: 0;}
+			#dropbox{
+				 float: left; width: 500px; height: 300px; margin: 10px; border: #999 solid 1px;
+            }
+            #picturesbox{
+            	  float: left;width: 320px;  margin: 10px; border: #999  solid 1px;
+            	  
+            }
+            #picturesbox > img{
+            	 float: left; padding: 10px;
+            }
+		</style>
+	</head>
+	<body>
+		<section id="dropbox">
+         		<canvas id="canvas" width="500" height="300"></canvas>	
+		</section>
+		<section id="picturesbox">
+			<img class="image" src="http://www.minkbooks.com/content/monster1.gif">
+			<img class="image" src="http://www.minkbooks.com/content/monster2.gif">
+			<img class="image" src="http://www.minkbooks.com/content/monster3.gif">
+			<img class="image" src="http://www.minkbooks.com/content/monster4.gif">
+		</section>
+		<script type="text/javascript">
+ 	     function initiate(){
+ 	     	sourceimg=document.querySelectorAll('#picturesbox>img')
+ 	     	for(i=0;i<sourceimg.length;i++){
+ 	     	sourceimg[i].addEventListener('dragstart',dragged,false);
+ 	     	}
+ 	     	 drop=document.getElementById('dropbox');
+ 	     	 drop.addEventListener('dragenter',function(e){
+ 	     	 	e.preventDefault()
+ 	     	 },false)
+ 	     	 drop.addEventListener('dragover',function(e){
+ 	     	 	e.preventDefault()
+ 	     	 },false)
+ 	     	 drop.addEventListener('drop',droped,false)
+ 	     }
+ 	     function dragged(e){
+ 	     	var code='<img src="'+this.getAttribute('src')+'"  />';
+ 	     	e.dataTransfer.setData('Text',code);
+ 	     	console.log(e.dataTransfer.getData('Text'))
+ 	     }
+ 	     function droped(e){
+ 	     	     e.preventDefault();
+ 	     	var getImg=e.dataTransfer.getData('Text');
+ 	     	console.log(getImg)
+ 	     	if(getImg.length!=0){
+ 	     	   drop.innerHTML+=getImg
+ 	     	}
+ 	     }
+ 	     
+ 	     window.addEventListener('load',initiate,false)
+		</script>
+	</body>
+</html>

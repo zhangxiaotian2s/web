@@ -1,0 +1,118 @@
+﻿$axure.loadCurrentPage({
+  "url":"未注册.html",
+  "generationDate":new Date(1421638850745.44),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"87a03ee65b814cb08eb98d21a057e9f2",
+    "type":"Axure:Page",
+    "name":"未注册",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"df48fc8f4edb4f1f8fd7aa0e47ebb0da",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":-1,
+              "y":0},
+            "size":{
+              "width":1000,
+              "height":690}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"0f80616a696442a5a9a7fffecea71002",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":-1,
+                  "y":0},
+                "size":{
+                  "width":1000,
+                  "height":690}},
+              "adaptiveStyles":{
+}}],
+          "annotation":{
+            "描述":"“求桃花”“请贵人”“求财运”三个按钮，可点击，点击进入对应的step1"},
+          "images":{
+            "normal~":"images/未注册/u0.png"}},
+{
+          "id":"a65d702181fa48b6abfc838436a93062",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFF0000,
+              "opacity":1},
+            "location":{
+              "x":20,
+              "y":186},
+            "size":{
+              "width":300,
+              "height":48}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"f0c6338ee9b84bd4a08f3a0ee074459c",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFF0000,
+                  "opacity":1},
+                "location":{
+                  "x":20,
+                  "y":186},
+                "size":{
+                  "width":300,
+                  "height":48}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "df48fc8f4edb4f1f8fd7aa0e47ebb0da":{
+      "scriptId":"u0"},
+    "0f80616a696442a5a9a7fffecea71002":{
+      "scriptId":"u1"},
+    "a65d702181fa48b6abfc838436a93062":{
+      "scriptId":"u2"},
+    "f0c6338ee9b84bd4a08f3a0ee074459c":{
+      "scriptId":"u3"}}});

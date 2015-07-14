@@ -1,0 +1,67 @@
+﻿$axure.loadCurrentPage({
+  "url":"step2.html",
+  "generationDate":new Date(1421638850833.5),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"c8e410045f7145feb57b7b59e8f35710",
+    "type":"Axure:Page",
+    "name":"step2",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"f23cda7716ed49f2a049cb3627712166",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1000,
+              "height":690}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"d17765ab982a45edac26bf3458ccf2bd",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1000,
+                  "height":690}},
+              "adaptiveStyles":{
+}}],
+          "annotation":{
+            "描述":"step2 为 求签状态，提示用户晃动手机，5秒钟之后进入到step3."},
+          "images":{
+            "normal~":"images/step2/u0.jpg"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "f23cda7716ed49f2a049cb3627712166":{
+      "scriptId":"u0"},
+    "d17765ab982a45edac26bf3458ccf2bd":{
+      "scriptId":"u1"}}});

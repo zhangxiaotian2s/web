@@ -1,0 +1,67 @@
+﻿$axure.loadCurrentPage({
+  "url":"无头像.html",
+  "generationDate":new Date(1421638850976.59),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"3956dc6b36044b3bbea06aed4113e302",
+    "type":"Axure:Page",
+    "name":"无头像",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"fb26e8c2b8804e1cb685559492bb9d7e",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1000,
+              "height":695}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"35c1b0ebacea41508ebb0378dd80162d",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1000,
+                  "height":695}},
+              "adaptiveStyles":{
+}}],
+          "annotation":{
+            "描述":"当用户没有头像时，用默认头像，随机选择一个默认卡通头像展示，并提示“为了保证算出的准确度，请上传你的真实头像”上传之后同时同步用户信息。"},
+          "images":{
+            "normal~":"images/无头像/u0.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "fb26e8c2b8804e1cb685559492bb9d7e":{
+      "scriptId":"u0"},
+    "35c1b0ebacea41508ebb0378dd80162d":{
+      "scriptId":"u1"}}});

@@ -1,0 +1,65 @@
+*{ margin: 0 ; padding: 0;}
+a{text-decoration: none;}
+li{list-style: none;}
+img{border: none;}
+
+.block{ display: block;}
+.hidden{ display: none;}
+.overhidden{ overflow: hidden;}
+.blank10{ height: 10px; overflow: hidden;}
+.blank20{ height: 10px; overflow: hidden;}
+.blank30{ height: 10px; overflow: hidden;}
+
+.bgb60{ background:url(../images/blank60.png);}
+.bgw60{ background: url(../images/bgw60.png);}
+.clear{clear:both; height: 0px; overflow: hidden;}
+
+.margin-auto{ margin: 0 auto;}
+.P100{ width: 100%;}
+.PA100{ width: 100%; height: 100%;}
+.Prelative{ position: relative;}
+.Pabsolute{ position: absolute;}
+.Pfixed{ position: fixed;}
+
+.text_center{ text-align: center;}
+.text_right{ text-align: right;}
+
+.font_size12{ font-size: 0.75em;}
+.font_size14{ font-size: 0.875em;}
+.font_size16{ font-size: 1em;}
+.font_size18{font-size:  1.124em;}
+.font_size20{font-size:  1.25em;}
+
+
+
+.index_upload_img_box{ width: 24.6%; height: 15.5%;  left: 38%; top: 45%;}
+
+.upload_text{ height: 30px; bottom: 0px;  left: 0px; line-height: 30px; color: #fff;}
+
+.index_form_box{ width: 70%;  top: 70%; left: 15%; border:#FFFFFF solid 1px ; border-radius: 6px; padding: 2% 0px;}
+.select_sex{ width: 60%; margin-left: 20%;}
+.select_sex .sex_one{ float: left;}
+.sex_one{ width:40%; padding-left: 10%;line-height: 100%;}
+.sex_one  span{ padding-top: 9%;}
+.sex_icon{ float: left; width: 40%; height: 20%; margin-right: 10%;  border-radius: 50%; cursor: pointer; }
+.sex_one div.selected{ background: #fff;}
+
+
+
+.index_input_text{ width: 80%; margin-left: 10%; margin: 3% 10%; padding: 1% 0px; background:#FFFFFF url(../images/icon01.png) no-repeat center left;
+ background-size:contain ; border-radius: 4px;
+}
+.index_input_text input{margin-left: 20%;}
+.index_input_text .input_text{height: 28px; line-height: 28px; border: none; outline: none;}
+
+.index_form_sub { width: 80%; margin: 1% 10% 2%; }
+.index_form_sub .sub_btn{ width: 100%; border: none; border-radius: 4px; background: #FFFFFF; height: 34px; background: #4d72cd; box-shadow: #315392 0px 3px 0px;
+ color: #FFFFFF;  cursor: pointer;
+}
+.index_form_hide{height: 0px;}
+
+.error_red{color: #c83029;}
+
+
+
+

@@ -1,0 +1,65 @@
+﻿$axure.loadCurrentPage({
+  "url":"扫描结果.html",
+  "generationDate":new Date(1421638850865.52),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"1e441c4e49874934abc3b356cab85c9f",
+    "type":"Axure:Page",
+    "name":"扫描结果",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"480d70c0b31b446da1159c43feb6441a",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1000,
+              "height":1000}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"adfec574826e4d8dad1711acdcaca868",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1000,
+                  "height":1000}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/扫描结果/u0.jpg"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "480d70c0b31b446da1159c43feb6441a":{
+      "scriptId":"u0"},
+    "adfec574826e4d8dad1711acdcaca868":{
+      "scriptId":"u1"}}});

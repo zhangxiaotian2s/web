@@ -1,0 +1,65 @@
+﻿$axure.loadCurrentPage({
+  "url":"未注册_2.html",
+  "generationDate":new Date(1421638851248.77),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"07c112dcc7304853b4a36d927384b047",
+    "type":"Axure:Page",
+    "name":"未注册",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"af089b23b6c8478a8cfe0fab5b2bd8a6",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1000,
+              "height":690}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"a346f25f70a94ee99435e0f323dfbda5",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1000,
+                  "height":690}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/未注册/u0.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "af089b23b6c8478a8cfe0fab5b2bd8a6":{
+      "scriptId":"u0"},
+    "a346f25f70a94ee99435e0f323dfbda5":{
+      "scriptId":"u1"}}});

@@ -1,0 +1,71 @@
+﻿$axure.loadCurrentPage({
+  "url":"分享给微信好友.html",
+  "generationDate":new Date(1421638850903.55),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"da33098336364288b229b32a1c34943e",
+    "type":"Axure:Page",
+    "name":"分享给微信好友",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"60e4e2371c3241239b1ba0d29145c6ef",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":140,
+              "y":0},
+            "size":{
+              "width":430,
+              "height":790}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c11abb894f2b4b558138c2e2ba3fcae2",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":140,
+                  "y":0},
+                "size":{
+                  "width":430,
+                  "height":790}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/分享给微信好友/u0.jpg"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "60e4e2371c3241239b1ba0d29145c6ef":{
+      "scriptId":"u0"},
+    "c11abb894f2b4b558138c2e2ba3fcae2":{
+      "scriptId":"u1"}}});

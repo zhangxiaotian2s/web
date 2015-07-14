@@ -1,0 +1,67 @@
+﻿$axure.loadCurrentPage({
+  "url":"step3_1.html",
+  "generationDate":new Date(1421638851039.63),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"0c96154f573d4954957b29e9eaa31845",
+    "type":"Axure:Page",
+    "name":"step3",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"1b892a8695304e0194bc4406d1d60bb7",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1000,
+              "height":860}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"88529e9eb0384145acefe2a6d326655b",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1000,
+                  "height":860}},
+              "adaptiveStyles":{
+}}],
+          "annotation":{
+            "描述":"已登录用户查看结果页面：<br>显示求签文字，已及推出三个天际用户，<br>规则为：异性+活跃度最高的用户。点击“结识Ta”跳转到用户个人主页。"},
+          "images":{
+            "normal~":"images/step3_1/u0.jpg"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "1b892a8695304e0194bc4406d1d60bb7":{
+      "scriptId":"u0"},
+    "88529e9eb0384145acefe2a6d326655b":{
+      "scriptId":"u1"}}});

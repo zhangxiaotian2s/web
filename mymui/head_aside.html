@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script src="js/mui.min.js"></script>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/mymui.css" />
+		<link rel="stylesheet" href="css/mystyle.css" />
+		<style type="text/css">
+			body,
+			.mui-content {
+				background-color: #333;
+				color: #fff;
+			}
+			.title {
+				margin: 35px 15px 10px;
+			}
+			.title+.content {
+				margin: 10px 15px 35px;
+				color: #bbb;
+				text-indent: 1em;
+				font-size: 14px;
+				line-height: 24px;
+			}
+			.mui-table-view {
+				margin-bottom: 35px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="mui-content">
+			<div id="aside_head" class="mui-circle">
+				<img src="images/img.jpg">
+			</div>
+			<div class="blank5"></div>
+			<!--<div class="mui-row" id="login_register">
+						<a class="col-xs-4 col-xs-offset-1 ">立即登录</a>
+						<a class="col-xs-4 col-xs-offset-2">马上注册</a>
+					</div>-->
+			<div class="blank5"></div>
+			<ul id="login_three" class="mui-row">
+				<li class="col-xs-4 mui-text-center"><a href="#"><span class="mui-icon mui-icon-weibo "></span></a>
+				</li>
+				<li class="col-xs-4 mui-text-center"><a href="#"><span class="mui-icon mui-icon-weixin"></span></a>
+				</li>
+				<li class="col-xs-4 mui-text-center"><a href="#"><span class="mui-icon mui-icon-pengyouquan"></span></a>
+				</li>
+
+			</ul>
+			<ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted">
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right"  href="1111">
+						<span class="mui-icon mui-icon-star mui-color-red"></span> 热点推荐
+						<span class="mui-badge mui-badge-red">5</span>
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right" open-type="common" href="gn_news_list.html">
+						<span class="mui-icon mui-icon-flag mui-color-green"></span> 国内新闻
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right"  href="3333">
+						<span class="mui-icon mui-icon-flag mui-color-green"></span> 国际新闻
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right"  href="4444">
+						<span class="mui-icon mui-icon-flag mui-color-green"></span> 屌丝乐闻
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right" href="5555">
+						<span class="mui-icon mui-icon-flag mui-color-green"></span> 政治丑闻
+					</a>
+				</li>
+			</ul>
+			<script src="js/mui.min.js"></script>
+			<script type="text/javascript" charset="utf-8">
+			mui.plusReady(function(){
+				index=plus.webview.currentWebview().opener()
+			})
+			mui(".mui-table-view").on('tap','a',function(){
+				var id=this.getAttribute("href");
+				var type=this.getAttribute("open-type");
+				if(type=='common'){
+					mui.openWindow({
+						id:id,
+						url:this.href,
+						wating:{
+							autoshow:false
+						}
+					})
+				}
+			})
+			</script>
+		</div>
+	</body>
+
+</html>
