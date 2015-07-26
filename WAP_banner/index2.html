@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>banner</title>
+		<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1,user-scalable=0, minimum-scale=1.0" />
+		<link rel="stylesheet" href="css/style.css" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="format-detection" content="telephone=no" />
+		<script type="text/javascript" src="js/zepto.min.js"></script>
+		<script type="text/javascript" src="js/touch.min.js"></script>
+	</head>
+
+	<body>
+		<div id="banner" class="row clearfix">
+			<div id="banner_box" class="clearfix">
+				<ul id="imgul">
+					<li data-img='images/banner1.png' data-title='banner1'>
+						<img src="images/loading.gif" class="img-responsive">
+					</li>
+					<li data-img='images/banner2.png' data-title='banner2'>
+						<img src="images/loading.gif" class="img-responsive">
+					</li>
+					<li data-img='images/banner3.png' data-title='banner3'>
+						<img src="images/loading.gif" class="img-responsive">
+					</li>
+					<li data-img='images/banner4.png' data-title='banner4'>
+						<img src="images/loading.gif" class="img-responsive">
+					</li>
+				</ul>
+			</div>
+			<div id="banner_btn" class="row clearfix">
+				<ul>
+					<li class="current"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+		</div>
+		<div id="show_box">
+
+		</div>
+		<script>
+			var showbox = $('#show_box');
+			var win_w = $(window).width();
+			var img_ul = $('#imgul'),
+				img_li = img_ul.children('li');
+			img_li_length = img_li.length;
+			var img_arr_src = [];
+			window.onload = function() {
+				//取得img地址和图片的title
+				setTimeout(function(){
+					for (i = 0; i < img_li_length; i++) {
+					var imgsrc = img_li.eq(i).attr('data-img');
+					img_li.eq(i).children('img').attr('src', imgsrc)
+				}
+				},1000)
+				
+			}
+		</script>
+
+	</body>
+
+</html>
